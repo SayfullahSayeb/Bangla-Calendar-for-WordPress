@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Bangla Archive Calendar
- * Description: Bangla archive calendar for post filter.
+ * Description: Bangla Archive Calendar for date-based post filtering. Allows users to select dates using a calendar.
  * Version: 1.0
  * Author: Sayfullah Sayeb
  * Author URI: https://github.com/SayfullahSayeb
@@ -179,4 +179,4 @@ function convert_to_bangla($number) {
     return strtr($number, $bangla_numerals);
 }
 
-add_shortcode('archive_calendar', 'archive_calendar_shortcode');
+add_shortcode('bangla_archive_calendar', 'archive_calendar_shortcode');
