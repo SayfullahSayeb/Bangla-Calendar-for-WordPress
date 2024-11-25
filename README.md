@@ -1,7 +1,5 @@
 # Bangla-Calendar-for-WordPress
 
-### Bangla Archive Calendar for date-based post filtering. Allows users to select dates using a calendar.
-
 Contributors: Sayfullah Sayeb<br>
 Tags: Bangla Calendar, Post Archive, Post Filter<br>
 Requires at least: 5.0<br>
