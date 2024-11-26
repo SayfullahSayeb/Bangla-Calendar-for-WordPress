@@ -6,8 +6,14 @@
  * Author: Sayfullah Sayeb
  * Author URI: https://github.com/SayfullahSayeb
  */
-add_filter('plugin_row_meta', 'custom_plugin_row_meta', 10, 2); function custom_plugin_row_meta($links, $file) { if ($file == plugin_basename(__FILE__)) { $links[] = '<a href="https://github.com/SayfullahSayeb/Bangla-Calendar-for-WordPress" target="_blank">View Details</a>';
-$links[] = 'Shortcode: <strong>[bangla_archive_calendar]</strong>'; } return $links; }
+add_filter('plugin_row_meta', 'bangla_archive_calendar_plugin_row_meta', 10, 2);
+function bangla_archive_calendar_plugin_row_meta($links, $file) {
+    if ($file == plugin_basename(__FILE__)) {
+        $links[] = '<a href="https://github.com/SayfullahSayeb/Bangla-Calendar-for-WordPress" target="_blank">View Details</a>';
+        $links[] = 'Shortcode: <strong>[bangla_archive_calendar]</strong>';
+    }
+    return $links;
+}
 
 
 function archive_calendar_shortcode() {
