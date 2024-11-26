@@ -67,7 +67,7 @@ function archive_calendar_shortcode() {
                 <div id="calendar" style="display: contents;"></div>
             </div>
 
-            <button type="submit" style="margin-top: 10px; background-color: #FCB017; color: white; border: none; border-radius: 5px; cursor: pointer; width: 100%;">খবর খুঁজুন</button>
+            <button type="submit" style="margin-top: 10px; background-color: #37cc33; color: white; border: none; border-radius: 5px; cursor: pointer; width: 100%;">খবর খুঁজুন</button>
         </form>
     </div>
     <script>
@@ -92,7 +92,7 @@ function archive_calendar_shortcode() {
                 for (let day = 1; day <= daysInMonth; day++) {
                     const dayButton = document.createElement('button');
                     dayButton.innerText = day; // Display day in English
-                    dayButton.style.border = '1px solid #FCB017';
+                    dayButton.style.border = '1px solid #37cc33';
                     dayButton.style.borderRadius = '4px';
                     dayButton.style.backgroundColor = '#fff';
                     dayButton.style.color = '#000';
@@ -107,7 +107,7 @@ function archive_calendar_shortcode() {
 
                     // Highlight today's date
                     if (day === today.getDate() && year == today.getFullYear() && month == today.getMonth() + 1) {
-                        dayButton.style.backgroundColor = '#FCB017';
+                        dayButton.style.backgroundColor = '#37cc33';
                         dayButton.style.color = 'white';
                     }
 
@@ -117,7 +117,7 @@ function archive_calendar_shortcode() {
                             btn.style.backgroundColor = '#fff';
                             btn.style.color = '#000';
                         });
-                        dayButton.style.backgroundColor = '#FCB017';
+                        dayButton.style.backgroundColor = '#37cc33';
                         dayButton.style.color = 'white';
                     };
 
