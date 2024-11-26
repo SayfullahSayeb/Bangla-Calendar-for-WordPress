@@ -3,7 +3,7 @@
 Contributors: Sayfullah Sayeb<br>
 Tags: Bangla Calendar, Post Archive, Post Filter<br>
 Requires at least: 5.0<br>
-Tested up to: 6.0<br>
+Tested up to: 6.7.1<br>
 Requires PHP: 7.0<br>
 License: GPL v2 or later<br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
